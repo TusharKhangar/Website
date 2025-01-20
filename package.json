@@ -1,0 +1,15 @@
+{
+  "name": "hansaay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass src/input.scss src/styles.css"
+  },
+  "dependencies": {
+    "remixicon": "^4.6.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
