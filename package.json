@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "sass src/input.scss src/styles.css"
+    "build-css": "sass src/input.scss src/styles.css --watch"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.17"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0"
   }
 }

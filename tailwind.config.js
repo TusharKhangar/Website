@@ -3,8 +3,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      zIndex: {
+        '100':'100'
+      },
       screens: {
         'lg':'890px',
+        'z-100':'100',
       },
       keyframes :{
         zoom :{
